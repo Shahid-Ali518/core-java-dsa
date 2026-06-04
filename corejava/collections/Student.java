@@ -3,7 +3,8 @@ package corejava.collections;
 import java.awt.datatransfer.FlavorEvent;
 import java.util.Objects;
 
-public class Student {
+// Comparable is tell the collection like list to sort using     `
+public class Student implements Comparable<Student> {
 
     private String name;
     private double cgpa;
@@ -58,4 +59,10 @@ public class Student {
                 ", cgpa=" + cgpa +
                 '}';
     }
+
+    @Override
+    public int compareTo(Student o) {
+        return Double.compare(o.getCgpa(), this.getCgpa());
+    }
+
 }
