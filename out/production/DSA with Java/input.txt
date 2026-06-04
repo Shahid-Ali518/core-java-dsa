@@ -1,0 +1,13 @@
+12
+a = (f[b] - (c+d)) / 2;
+a = /* initializing a */ (f[b] - (c+d)) / 2;
+if (a > b) { c = d[2] + e; }
+while(m < n[8) + o]
+for(int i=0; i<5; i++) { arr[i] = i; 
+x = (a + [b * {c + d}] - e);
+y = (a + b] * (c + d);
+z = (x + y) * (p + q);
+if(a < 5) { p = 7;
+result = /* start computation */ (m+n) / (p-q);
+func( arr[ idx { x+y } ] );
+while( (a+b) > (c*d) ) { x = y; }
